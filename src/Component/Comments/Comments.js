@@ -7,7 +7,6 @@ const Comments = (props) => {
     if (id % 2 !== 1) {
         image = `https://randomuser.me/api/portraits/women/${id}.jpg`;
     }
-    // https://randomuser.me/api/portraits/men/79.jpg
     return (
         <div className="comment">
             <img src={image} alt=""/>
@@ -20,5 +19,4 @@ const Comments = (props) => {
         </div>
     );
 };
-
 export default Comments;
