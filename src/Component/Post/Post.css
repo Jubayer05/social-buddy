@@ -1,0 +1,25 @@
+.MuiCardContent-root {
+    height: 200px;
+    background-color: #ff6b95;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+}
+
+.card-title {
+    margin-bottom: 18px;
+}
+.MuiCardActions-spacing {
+    display: flex;
+    justify-content:center;
+}
+
+.MuiButton-root {
+    width: 100%;
+    height: 100%;
+}
+.MuiCardActions-root {
+    padding: 0 !important;
+}
+.MuiButton-label {
+    padding: 10px; 
+}
